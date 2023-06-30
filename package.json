@@ -1,0 +1,31 @@
+{
+  "name": "lottery",
+  "version": "1.0.0",
+  "description": "A basic lottery contract in Solidity is a decentralized smart contract that allows anyone to buy a ticket and enter into a lottery. The ticket revenue is collected into a pot in the contract 1. In one example use case, anyone can choose a number 1–10,000 and buy a ticket to enter into a lottery",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MuhammadEhsanJutt/Lottery.git"
+  },
+  "author": "Ehsan Jutt",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MuhammadEhsanJutt/Lottery/issues"
+  },
+  "homepage": "https://github.com/MuhammadEhsanJutt/Lottery#readme",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-chai-matchers": "^1.0.6",
+    "@nomicfoundation/hardhat-toolbox": "^2.0.0",
+    "@nomiclabs/hardhat-ganache": "^2.0.1",
+    "hardhat": "^2.7.0"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.8.3",
+    "chai-bignumber": "^3.1.0",
+    "chai-bn": "^0.3.1",
+    "dotenv": "^16.0.3"
+  }
+}
